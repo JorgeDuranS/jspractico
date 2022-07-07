@@ -1,14 +1,22 @@
 //Código del Cuadrado
 console.group("Cuadrados")
 //Lado del cuadrado
-const ladoCuadrado = 5;
-console.log("Los lados del cuadrado miden: " + ladoCuadrado + " cms");
+// const ladoCuadrado = 5;
+// console.log("Los lados del cuadrado miden: " + ladoCuadrado + " cms");
+
 //Perimetro del cuadrado
-const perimetroCuadrado = ladoCuadrado * 4;
-console.log("El perimetro del cuadrado mide: " + perimetroCuadrado + " cms");
+function perimetroCuadrado(lado) {
+  return lado * 4;
+}
+perimetroCuadrado()
+
+// console.log("El perimetro del cuadrado mide: " + perimetroCuadrado + " cms");
 //Area del cuadrado
-const areaCuadrado = ladoCuadrado * ladoCuadrado;
-console.log("El área del cuadrado mide: " + areaCuadrado + " cms^2");
+// const areaCuadrado = ladoCuadrado * ladoCuadrado;
+function areaCuadrado(lado){
+  return lado * lado; 
+}
+// console.log("El área del cuadrado mide: " + areaCuadrado + " cms^2");
 console.groupEnd();
 
 
