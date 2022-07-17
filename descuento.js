@@ -8,5 +8,5 @@ function calcular() {
   let precio = parseFloat(document.getElementById('precio').value);
   let descuento = parseFloat(document.getElementById('descuento').value);
   precioFinal = calcularDescuento(precio, descuento);
-  document.getElementById('resultado').innerText = precioFinal;
+  document.getElementById('resultado').innerText = "El precio con escuento es: $" + precioFinal;
 }
